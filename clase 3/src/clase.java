@@ -33,7 +33,7 @@ public class clase {
 					System.out.println("el resultado es: " + (resultado));
 				}
 				}	
-	*/
+
 	
 	int resultado;
 	int num1;
@@ -56,7 +56,7 @@ public class clase {
 	}
 	
 		
-	/*	int a;
+	int a;
 		int b;
 		a = 4;
 		b = 10;
@@ -68,5 +68,21 @@ public class clase {
 		{
 		System.out.println("a es mayor o igual b");	
 		}
-*/
+------------------------------------------------------------------------------
+Guia ejercicios */
 
+/*Ejercicio 1
+		GuiaIF.ej1();
+
+	
+Ejercicio 2
+		GuiaIF.ej2();
+
+Ejercicio 3
+		GuiaIF.ej3();
+		
+	*/
+}
+}
+	
+	
