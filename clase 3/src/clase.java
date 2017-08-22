@@ -82,6 +82,8 @@ Ejercicio 3
 		GuiaIF.ej3();
 		
 	*/
+		
+		GuiaIF.ej4();
 }
 }
 	

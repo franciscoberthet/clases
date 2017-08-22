@@ -45,4 +45,18 @@ public static void ej3()
 	}
 }
 
+public static void ej4(){
+	int edad;
+	Scanner s = new Scanner(System.in);
+	System.out.println("Ejercicio 3");	
+	System.out.println("Ingrese su edad");
+	edad = Integer.parseInt(s.nextLine());
+	if (edad >= 13 && edad <=17)
+	{
+		System.out.println("Usted es adolescente");
+	}
+		
 }
+}
+
+
