@@ -3,6 +3,11 @@ import java.util.Scanner;
 public class clase {
 
 	public static void main(String[] args) {
+		// guiaEntradaSalida.ej1();
+		//guiaEntradaSalida.ej2();
+		//guiaEntradaSalida.ej3();
+		//	guiaEntradaSalida.ej5();
+	
 	/*	int numero1;
 		String nombre;
 		boolean booleano;
@@ -67,24 +72,39 @@ public class clase {
 		else 
 		{
 		System.out.println("a es mayor o igual b");	
-		}
-------------------------------------------------------------------------------
-Guia ejercicios */
+		} 
+		*/
+//------------------------------------------------------------------------------
 
-/*Ejercicio 1
-		GuiaIF.ej1();
+		//Guia ejercicios
 
+//Ejercicio 1 - niña bonita
+//		GuiaIF.ej1();
+
+//Ejercicio 2 - usted es mayor de edad
+//		GuiaIF.ej2();
+
+//Ejercicio 3 - mayor o menor de edad
+//	GuiaIF.ej3();
+		
+//Ejercicio 4 - adolescente
+//	GuiaIF.ej4();
+		
+// Ejercicio 5 - NO adolescente
+//	GuiaIF.ej5();
+
+// Ejercicio 6 - niño, adolescente o mayor de edad
+//	GuiaIF.ej6();
+
+//Ejercicio 7 - edad y estado civil (muy pequeño para no ser soltero)
+//	GuiaIF.ej7();
+
+//Ejercicio8 - usted es mayor de edad y no es soltero
+// GuiaIF.ej8();
+//GuiaIF.ej9();
+//GuiaIF.ej10();
 	
-Ejercicio 2
-		GuiaIF.ej2();
-
-Ejercicio 3
-		GuiaIF.ej3();
-		
-	*/
-		
-		GuiaIF.ej4();
-}
+	}
 }
 	
 	
