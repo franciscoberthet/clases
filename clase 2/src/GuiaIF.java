@@ -52,10 +52,21 @@ public static void ej4(){
 	System.out.println("Ejercicio 4");	
 	System.out.println("Ingrese su edad");
 	edad = Integer.parseInt(s.nextLine());
-	if (edad >= 13 && edad <=17)
+	if (edad >= 13 && edad <=17) // IF con operador && ("Y")
 	{
 		System.out.println("Usted es adolescente");
 	}
+
+// Otra forma con if anidados
+/* int edad
+	Scanner s = new Scanner.(system.in);
+	system.out.printLin("ingrese su edad"";
+	edad = integer.parseInt(s.nextLine());
+	if (edad >= 13)^
+	{
+		if (edad <= 17)
+		system.out.printLn("Usted es adolescente")
+		*/
 		
 }
 public static void ej5(){
@@ -64,7 +75,7 @@ public static void ej5(){
 	System.out.println("Ejercicio 5");	
 	System.out.println("Ingrese su edad");
 	edad = Integer.parseInt(s.nextLine());
-	if (edad <= 13 || edad >=17)
+	if (edad <= 13 || edad >=17) // IF con operador || ("O")
 	{
 		System.out.println("Usted no es adolescente");
 	}

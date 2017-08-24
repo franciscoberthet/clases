@@ -4,14 +4,16 @@ public class clase {
 
 	public static void main(String[] args) {
 
+//TPS		
+	// TPS.tp1();	
+		TPS.tp2();
 // Ejercicios E/S
 		// guiaEntradaSalida.ej1();
 		//guiaEntradaSalida.ej2();
 		//guiaEntradaSalida.ej3();
 		//guiaEntradaSalida.ej5();
 		//guiaEntradaSalida.ej6();
-		//
-		guiaEntradaSalida.ej7();
+		//guiaEntradaSalida.ej7();
 		//guiaEntradaSalida.ej9();
 		//guiaEntradaSalida.ej10();
 		

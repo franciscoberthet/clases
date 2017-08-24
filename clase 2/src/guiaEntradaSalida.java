@@ -74,10 +74,7 @@ public static void ej7(){
 	if (operacion == 4){
 		System.out.println("La division es " + (num1/num2));
 	}
-	if (operacion > 4 || operacion == 0 )
-	{
-		System.out.println("operacion invalida");
-	}
+
 }
 public static void ej8(){
 	String dividendoS; // "S" de string
