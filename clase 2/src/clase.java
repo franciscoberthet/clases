@@ -3,11 +3,44 @@ import java.util.Scanner;
 public class clase {
 
 	public static void main(String[] args) {
+
+// Ejercicios E/S
 		// guiaEntradaSalida.ej1();
 		//guiaEntradaSalida.ej2();
 		//guiaEntradaSalida.ej3();
-		//	guiaEntradaSalida.ej5();
-	
+		//guiaEntradaSalida.ej5();
+		//guiaEntradaSalida.ej6();
+		//
+		guiaEntradaSalida.ej7();
+		//guiaEntradaSalida.ej9();
+		//guiaEntradaSalida.ej10();
+		
+		
+//----------------------------------------------------------------
+		
+//Guia ejercicios IF
+//Ejercicio 1 - niña bonita
+//	GuiaIF.ej1();
+//Ejercicio 2 - usted es mayor de edad
+//	GuiaIF.ej2();
+//Ejercicio 3 - mayor o menor de edad
+//	GuiaIF.ej3();
+//Ejercicio 4 - adolescente
+//GuiaIF.ej4();
+// Ejercicio 5 - NO adolescente
+//	GuiaIF.ej5();
+// Ejercicio 6 - niño, adolescente o mayor de edad
+//	GuiaIF.ej6();
+//Ejercicio 7 - edad y estado civil (muy pequeño para no ser soltero)
+//	GuiaIF.ej7();
+//Ejercicio8 - usted es mayor de edad y no es soltero
+// GuiaIF.ej8();
+//GuiaIF.ej9();
+//GuiaIF.ej10();
+		
+//--------------------------------------------------------------------------------------------
+// calculadora ----------------
+		
 	/*	int numero1;
 		String nombre;
 		boolean booleano;
@@ -39,7 +72,8 @@ public class clase {
 				}
 				}	
 
-	
+
+Metodo realizado por el profe
 	int resultado;
 	int num1;
 	int num2;
@@ -60,7 +94,7 @@ public class clase {
 }
 	}
 	
-		
+-------- IF ---------------------------------------------		
 	int a;
 		int b;
 		a = 4;
@@ -75,35 +109,6 @@ public class clase {
 		} 
 		*/
 //------------------------------------------------------------------------------
-
-		//Guia ejercicios
-
-//Ejercicio 1 - niña bonita
-//		GuiaIF.ej1();
-
-//Ejercicio 2 - usted es mayor de edad
-//		GuiaIF.ej2();
-
-//Ejercicio 3 - mayor o menor de edad
-//	GuiaIF.ej3();
-		
-//Ejercicio 4 - adolescente
-//	GuiaIF.ej4();
-		
-// Ejercicio 5 - NO adolescente
-//	GuiaIF.ej5();
-
-// Ejercicio 6 - niño, adolescente o mayor de edad
-//	GuiaIF.ej6();
-
-//Ejercicio 7 - edad y estado civil (muy pequeño para no ser soltero)
-//	GuiaIF.ej7();
-
-//Ejercicio8 - usted es mayor de edad y no es soltero
-// GuiaIF.ej8();
-//GuiaIF.ej9();
-//GuiaIF.ej10();
-	
 	}
 }
 	

@@ -92,6 +92,7 @@ public static void ej7(){
 	int edad;
 	int estadoCivil;
 	Scanner s = new Scanner(System.in);
+	System.out.println("Ejercicio 7");
 	System.out.println("Ingrese su edad");
 	edad = Integer.parseInt(s.nextLine());
 	System.out.println("Indique su estado civil (Nº de opcion)");
@@ -113,6 +114,7 @@ public static void ej8(){
 	int edad;
 	int estadoCivil;
 	Scanner s = new Scanner(System.in);
+	System.out.println("Ejercicio 8");
 	System.out.println("Ingrese su edad");
 	edad = Integer.parseInt(s.nextLine());
 	System.out.println("Indique su estado civil (Nº de opcion)");
@@ -130,11 +132,13 @@ public static void ej8(){
 
 public static void ej9(){
 	int numeroRandom = ThreadLocalRandom.current().nextInt(0,10 +1);
+	System.out.println("Ejercicio 9");
 	System.out.println(numeroRandom);
 }
 
 public static void ej10(){
 	int numeroRandom = ThreadLocalRandom.current().nextInt(1,10 + 1);
+	System.out.println("Ejercicio 10");
 	if (numeroRandom <= 4){
 		System.out.println(numeroRandom + " Vamos, la proxima se puede");
 	}
