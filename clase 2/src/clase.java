@@ -6,18 +6,22 @@ public class clase {
 
 //TPS		
 	// TPS.tp1();	
-		TPS.tp2();
+		// TPS.tp2();
+		//TPS.tp2();
 // Ejercicios E/S
-		// guiaEntradaSalida.ej1();
-		//guiaEntradaSalida.ej2();
-		//guiaEntradaSalida.ej3();
-		//guiaEntradaSalida.ej5();
-		//guiaEntradaSalida.ej6();
-		//guiaEntradaSalida.ej7();
-		//guiaEntradaSalida.ej9();
-		//guiaEntradaSalida.ej10();
-		
-		
+		//GuiaEntradaSalida.ej1();
+		//GuiaEntradaSalida.ej2();
+		//GuiaEntradaSalida.ej3();
+		//GuiaEntradaSalida.ej4();
+		//GuiaEntradaSalida.ej5();
+		//GuiaEntradaSalida.ej6();
+		//GuiaEntradaSalida.ej7();
+		//GuiaEntradaSalida.ej8();
+		//GuiaEntradaSalida.ej9();
+		//	GuiaEntradaSalida.ej10();
+	
+		//GuiaSwitch.tp3();
+		GuiaSwitch.tp4();
 //----------------------------------------------------------------
 		
 //Guia ejercicios IF
@@ -39,6 +43,7 @@ public class clase {
 // GuiaIF.ej8();
 //GuiaIF.ej9();
 //GuiaIF.ej10();
+		
 		
 //--------------------------------------------------------------------------------------------
 // calculadora ----------------

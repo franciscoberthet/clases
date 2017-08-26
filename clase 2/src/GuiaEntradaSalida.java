@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class guiaEntradaSalida {
+public class GuiaEntradaSalida {
 public static void ej1() {
 	System.out.println("Esto funciona de maravilla");
 }
@@ -16,8 +16,46 @@ public static void ej3(){
 	System.out.println("Ingrese su nombre: ");
 	nombre = scan.nextLine();
 	System.out.println("Su nombre es: " + nombre);
+
 	
 }
+
+public static void ej4(){
+	int num1;
+	int num2;
+	String operador;
+	Scanner s = new Scanner(System.in);
+	System.out.println("Ingrese el primer numero");
+	num1 = Integer.parseInt(s.nextLine());
+	System.out.println("Ingrese su operacion (+ - * / )");
+	operador = s.nextLine();
+	operador = operador.toLowerCase();
+	if (operador.equals("+") || operador.equals("suma") || operador.equals("/") || operador.equals("division") || operador.equals("-") || operador.equals("resta") || operador.equals("*") || operador.equals("multiplicacion"))
+			{
+				System.out.println("Ingrese el segundo numero");
+				num2 = Integer.parseInt(s.nextLine());
+				if (operador.equals("/") && num2 == 0)
+					System.out.println("no se puede dividir por 0");
+				else if (operador.equals("division") || operador.equals("/"))
+					System.out.println(num1/num2);
+				else if (operador.equals("suma") || operador.equals("+")){
+					System.out.println("la suma es " + (num1+num2));
+				}
+				else if (operador.equals("resta") || operador.equals("-")){
+					System.out.println("la resta es " + (num1 - num2));	
+				}
+				else if (operador.equals("multiplicacion") || operador.equals("*")){
+					System.out.println("La multiplicacion es " + (num1*num2));
+				}
+			
+			}
+			else
+			{
+				System.out.println("Ingrese una operacion valida");}
+			}
+	
+	
+
 public static void ej5(){
 	int dividendo;
 	int divisor;
@@ -93,11 +131,12 @@ public static void ej9(){
 	String importeS;
 	int resultado;
 	int aumento;
+	int importe;
 	Scanner s = new Scanner(System.in);
 	System.out.println("Ingrese sueldo");
 	importeS = s.nextLine();
-	int importe = Integer.parseInt(importeS);
-	aumento = (importe*10)/100;
+	importe = Integer.parseInt(importeS);
+	aumento = (importe *10)/100;
 	System.out.println("El resultado con el aumento es: " + (importe+aumento));
 	
 	
@@ -112,7 +151,7 @@ public static void ej10(){
 	System.out.println("Ingrese importe");
 	importeS = s.nextLine();
 	importe = Integer.parseInt(importeS);
-	descuento = (importe*25)/100;
+	descuento = ((importe *25)/100);
 	System.out.println("El resultado con el descuento es: " + (importe-descuento));
 	
 }	
