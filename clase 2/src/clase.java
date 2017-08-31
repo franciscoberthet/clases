@@ -4,6 +4,8 @@ public class clase {
 
 	public static void main(String[] args) {
 
+GuiaWhile.ej7();		
+		
 //TPS		
 	// TPS.tp1();	
 		// TPS.tp2();
@@ -18,10 +20,10 @@ public class clase {
 		//GuiaEntradaSalida.ej7();
 		//GuiaEntradaSalida.ej8();
 		//GuiaEntradaSalida.ej9();
-		//	GuiaEntradaSalida.ej10();
+		//GuiaEntradaSalida.ej10();
 	
 		//GuiaSwitch.tp3();
-		GuiaSwitch.tp4();
+		//GuiaSwitch.tp4();
 //----------------------------------------------------------------
 		
 //Guia ejercicios IF
