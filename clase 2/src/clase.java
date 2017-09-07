@@ -4,8 +4,8 @@ public class clase {
 
 	public static void main(String[] args) {
 
-GuiaWhile.ej7();		
-		
+vectores.Vectores3();		
+	//tpProfe.tp1();	
 //TPS		
 	// TPS.tp1();	
 		// TPS.tp2();
