@@ -108,15 +108,15 @@ public class Funciones {
                     System.out.println("\033[31mLa coordenada X no es una coordenada valida");
                 }
                 System.out.println(jugador1.toUpperCase() + " |" );
-                System.out.println("Ingrese coordenada X del "+ ordenales[i] +" barco a agregar" + "(" +(fila1[0].replaceAll("\\s+",""))+"-" + fila1[(int)tamanio-1]+")");
+                System.out.println("Ingrese coordenada X del "+ ordenales[i] +" barco a agregar Ej: A1, B2, etc");
                 // fila1[0].replaceAll("\\s+","")) elimina espacios en String
                 do{
                     n = s.nextLine();
-                    System.out.println(n.substring(0,1));
-                    System.out.println(n.substring(1));
+   //                 System.out.println(n.substring(0,1));
+    //                System.out.println(n.substring(1));
                     
-                    System.out.println(n.substring(0,1).matches("[0-9]+"));
-                    System.out.println((n.substring(1)).matches("[0-9]+"));
+    //                System.out.println(n.substring(0,1).matches("[0-9]+"));
+     //               System.out.println((n.substring(1)).matches("[0-9]+"));
                 }   
                while (n.length() <= 1 || n.substring(0,1).matches("[0-9]+")==true || (n.substring(1)).matches("[0-9]+")==false);
                 coordX = (letraACoord(n.substring(0,1))-1);
@@ -160,19 +160,21 @@ public class Funciones {
                     System.out.println("\033[31mLa coordenada X ingresada no es una coordenada valida");
                 }
                 System.out.println(jugador2.toUpperCase() + " |" );
-                System.out.println("Ingrese coordenada X del "+ ordenales[i] +" barco a agregar" + "(" +(fila1[0].replaceAll("\\s+",""))+"-" + fila1[(int)tamanio-1]+")");
+                System.out.println("Ingrese coordenada del "+ ordenales[i] +" barco a agregar" + "(" +(fila1[0].replaceAll("\\s+",""))+"-" + fila1[(int)tamanio-1]+")");
                 // fila1[0].replaceAll("\\s+","")) elimina espacios en String
                 n = s.nextLine();
-                coordX = (letraACoord(n)) -1;
+                coordX = (letraACoord(n.substring(0,1))-1);
+                coordY = (Integer.parseInt(n.substring(1))-1);
                 if (coordX >= (tableroJ2[0].length)-1) error++;
             } while (coordX > (tableroJ2[0].length)-1);
+            
             error = 0;
             do {
                  if (error > 0){
                     System.out.println("\033[31mLa coordenada Y ingresada no es una coordenada valida");
                 }
-            System.out.println("Ingrese coordenada Y del " + ordenales[i] +" barco a agregar" + "(1-" + (tableroJ1[0].length) +")" );
-            coordY = (Integer.parseInt(s.nextLine()) -1);
+         //   System.out.println("Ingrese coordenada Y del " + ordenales[i] +" barco a agregar" + "(1-" + (tableroJ1[0].length) +")" );
+          //  coordY = (Integer.parseInt(s.nextLine()) -1);
             if (coordY >= (tableroJ2[0].length)-1) error++;
         } while (coordY > (tableroJ2[0].length)-1);
             tableroJ2[coordY][coordX] = 1;
@@ -503,7 +505,7 @@ public class Funciones {
                 // fila1[0].replaceAll("\\s+","")) elimina espacios en String
                 n = s.nextLine();
                 coordX = (letraACoord(n.substring(0,1))-1);
-                coordY = (Integer.parseInt(n.substring(0)));
+                coordY = (Integer.parseInt(n.substring(1))-1);
                 if (coordX >= 5) error++;
             } while (coordX > (tableroJ1J2[0].length)-1);
             error = 0;
@@ -534,8 +536,7 @@ public class Funciones {
      
                 }
                 else mostrarTablero(3);
-              // PROBLEMA JUEGO CONTINUA SI DESPUES DE UN TURNO SE DISPARA A LOS BARCOS DEL CONTRARIO SEGUIDO.  
-            //    System.out.println("Le diste a un barco!");
+             //    System.out.println("Le diste a un barco!");
             }
             
             if (tableroJ2[coordY][coordX] == 0){
@@ -573,7 +574,8 @@ public class Funciones {
                 System.out.println("Ingrese coordenada X del disparo" + "(" +(fila1[0].replaceAll("\\s+",""))+"-" + fila1[(int)tamanio-1]+")");
                 // fila1[0].replaceAll("\\s+","")) elimina espacios en String
                 n = s.nextLine();
-                coordX = (letraACoord(n)-1);
+                coordX = (letraACoord(n.substring(0,1))-1);
+                coordY = (Integer.parseInt(n.substring(1))-1);
                 if (coordX >= (tableroJ1J2[0].length)-1) error++;
             } while (coordX > (tableroJ1J2[0].length)-1);
             error = 0;
@@ -581,8 +583,8 @@ public class Funciones {
                  if (error > 0){
                     System.out.println("\033[31mLa coordenada Y no es una coordenada valida");
                 }
-            System.out.println("Ingrese coordenada Y del " + ordenales[i] +" barco a agregar" );
-            coordY = (Integer.parseInt(s.nextLine()) -1);
+          //  System.out.println("Ingrese coordenada Y del " + ordenales[i] +" barco a agregar" );
+        //    coordY = (Integer.parseInt(s.nextLine()) -1);
             if (coordY >= (tableroJ1[0].length)-1) error++;
             } while (coordY > (tableroJ1[0].length)-1);
             if (tableroJ1[coordY][coordX] == 1){

@@ -3,23 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication2;
+package javaapplication1;
 
 /**
  *
  * @author alumno
  */
-public class JavaApplication2 {
+public class JavaApplication1 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //new NewJFrameNuevo().setVisible(true);
-         new Calculadora().setVisible(true);
-        
-                
     }
     
 }

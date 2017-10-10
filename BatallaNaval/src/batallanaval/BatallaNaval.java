@@ -22,6 +22,7 @@ public class BatallaNaval {
      */
     public static void main(String[] args) {
       int tamanio;
+        System.out.println("Ingrese nº de filas");
       do {
       tamanio = Integer.parseInt(s.nextLine());
       } while (tamanio > 9);
@@ -32,9 +33,9 @@ public class BatallaNaval {
        Funciones.dificultad();
        Funciones.setBarcos();
        // String jugador1 = s.nextLine();
-        Funciones.setJugador1("francisco") ;
+        Funciones.setJugador1("jugador1") ;
        // String jugador2 = s.nextLine();
-        Funciones.setJugador2("natalia") ;
+        Funciones.setJugador2("jugador2") ;
        // System.out.print(jugador1);
         Funciones.espacios(20);
         //System.out.println(jugador2);
@@ -55,7 +56,6 @@ public class BatallaNaval {
      //   System.out.println(Funciones.aciertos[1]);
       
    
-// TURNO CONTINUA SI SE PEGA A BARCO LUEGO DE TENER VARIOS ACIERTOS EN OTROS TURNOS (PORQUE TIRO QUE PEGA SIGUE)
 
 }
     }
